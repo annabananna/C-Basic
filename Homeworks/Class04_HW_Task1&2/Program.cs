@@ -15,6 +15,7 @@
             if(n > output.Length)
             {
                 Console.WriteLine($"Can't print last 5 characters, the input {output} is less than 5 characters");
+                return;
             }
 
             string substring = output.Substring(output.Length - 5);
